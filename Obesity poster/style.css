@@ -1,0 +1,324 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+padding:30px 150px;
+background-color: silver;
+
+}
+.head{
+    display: flex;
+justify-content: center;
+margin-bottom: 30px;
+    
+}
+.icon{
+   border: 5px solid whitesmoke;
+   border-radius: 50%;
+   margin-right: 20px;
+   background-color: rgb(0, 0, 0);
+   color: rgb(137, 137, 243);
+   padding: 5px;
+}
+.text > h1{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 800;
+   font-size: 80px;
+    color: rgb(245, 58, 129);
+    letter-spacing: 2px;
+}
+.text >p{
+    margin: 0%;
+ margin-top: -10px;
+    letter-spacing: 3px;
+    color: white;
+    font-size: 30px;
+}
+.items{
+    display: inline-flex;
+    text-align: center;
+    font-size: 25px;
+    flex-wrap: wrap;
+}
+.common{
+    padding: 50px;
+    color: whitesmoke;
+}
+
+
+.ic{
+    margin-right:10px ;
+    color:black;
+}
+.color{
+    color: rgb(255, 0, 149);
+}
+.items  h1{
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;;
+    text-transform: uppercase;
+}
+.items  h2{
+    font-size: 30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-transform: uppercase;
+}
+.one{
+    background-color: orange;    
+width:50%;  
+
+}
+.two{
+    background-color: rgb(67, 182, 228);
+    width:50%;
+    }
+.third{
+    background-color:  rgb(241, 85, 85); 
+    text-align: left;
+    margin-top: 30px;
+    width: 100%;
+    }
+.third>h2{
+        width: 50%;
+    }
+.smoke , .coins , .drinks{
+    display: inline-block;
+    margin-left:50px;
+}
+.coins >.ic ,.smoke >.ic ,.drinks>.ic{
+    margin-left: 20px;
+ }
+.third > p{
+    margin-top:20px;
+}
+.fourth{
+    width: 100%;
+    box-sizing: border-box;
+    background-color:rgb(67, 182, 228);
+    display: flex;
+    margin-top: 30px;
+}
+.fourth-1{
+    width: 50%;
+    
+}
+.fourth-2{
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.fifth{
+    width: 50%;
+    background-color: rgb(241, 85, 85); 
+    margin-top: 30px;
+}
+.sixth{
+    width: 50%;
+    background-color: orange;
+    margin-top: 30px;
+}
+.seventh{
+    width: 100%;
+    background-color: rgb(67, 182, 228);
+    display: inline-flex;
+    padding: 30px;
+    margin-top: 30px;    
+}
+.eight{
+    width: 100%;
+}
+.big-text{
+    width: 80%;
+    text-align: left;
+   }
+   .big-text>h1{
+       font-size: 70px;
+       line-height:60px;
+       letter-spacing: 3px;
+       word-spacing: 20px;
+   }
+.icon{
+    width:fit-content
+}
+.eight{
+    background-color: orange;
+    display: inline-flex;
+    padding: 30px;
+    margin-top: 30px;
+}
+.nineth{
+    width: 50%;
+    background-color: rgb(67, 182, 228);
+    margin-top: 30px;
+}
+.nineth > .ic{
+    margin-left: 40%;
+}
+.tenth{
+    background-color:  rgb(241, 85, 85); 
+    margin-top: 30px;
+    width: 50%;
+}
+
+
+
+/* mobile device */
+
+
+@media(min-width:320px){
+.container{
+    padding: 5px 10px;
+}
+    .icon {
+        border-radius: 50%;
+    width: fit-content;
+    padding:0px;
+    border:2px solid rgb(243, 243, 243);
+    background-color: transparent;
+        font-size: 8px;
+        color: rgb(137, 137, 243)
+        }
+    .text >h1{
+        font-size: 40px;
+        }
+        .text>p{
+            font-size: 12px;
+        }
+        .container{
+            padding:2px 10px;
+        }
+        .items{
+            font-size: 9px;
+        }
+        .items  h1{
+            font-size: 15px;
+        }
+        .items  h2{
+            font-size: 10px;
+        }
+        .common{
+            padding:5px;
+        }
+        .smoke , .coins , .drinks{
+            margin-left:10px;
+           }
+        .coins >.ic ,.smoke >.ic ,.drinks>.ic{
+            margin-left: 10px;
+        }
+        .third{
+            margin-top: 20px;
+        }
+        .third > p{
+            margin-top:10px;
+        }
+      .fourth{
+          margin-top :20px;
+      }
+      .fifth ,.sixth,.seventh, .eight ,.nineth,.tenth{
+          margin-top: 20px;
+      }
+        .fourth-2{
+            width: 50%;
+            padding-top: 20px;
+            padding-left: 10px;
+        }
+      
+       .seventh{
+        padding: 10px;
+              
+        }
+        .big-text{
+            width: 80%;
+            text-align: left;
+        
+           }
+           .big-text>h1{
+               font-size:16pxpx;
+          line-height:20px;
+               letter-spacing: 2px;
+               word-spacing: 15px;
+           }
+           .eight{
+               width: 100%;
+           }
+           .nineth{
+            width: 50%;
+            background-color: rgb(67, 182, 228);
+            
+        }
+        .nineth >h1{
+           line-height:30px;
+               letter-spacing: 3px;
+               word-spacing: 20px;
+        }
+        
+        .tenth p{
+         margin-top:10px;
+        } 
+}
+
+/* large devices */
+
+@media (min-width:768px) {
+   
+    .icon{
+        font-size: 15px;
+     border-radius: 50%;
+        margin-right:20px;
+    }
+    .text >h1{
+        font-size: 70px;
+        }
+        .text>p{
+            font-size: 21px;
+        }
+        .container{
+            padding:20px 40px;
+        }
+        .items{
+            font-size: 20px;
+        }
+        .items  h1{
+            font-size: 35px;
+        }
+        .items  h2{
+            font-size: 28px;
+        }
+        .common{
+            padding: 30px;
+        }
+        .smoke , .coins , .drinks{
+         margin-left:25px;
+        }
+        .coins >.ic ,.smoke >.ic ,.drinks>.ic{
+           margin-left: 30px;
+        }
+        .third > p{
+            margin-top:10px;
+        }
+        .fourth-1 >.ic{
+            font-size: 30px;
+        }
+        .fourth-2{
+            width: 50%;
+            padding-top: 37px;
+            padding-left: 10px;
+        }
+        .fifth >.cookie{
+            margin-top: 20px;
+        }
+        .big-text{
+         text-align: left;
+            
+           }
+           .big-text>h1{
+               font-size: 50px;
+               width: 100%;
+          line-height:60px;
+               letter-spacing: 2px;
+               word-spacing: 25px;
+           }
+  
+}
